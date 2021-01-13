@@ -1,0 +1,304 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+*{
+    box-sizing: border-box;
+}
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+.container{
+    max-width: 1240px;
+}
+nav{
+    padding: 0;
+    margin: 0;
+}
+.jumbotron-header {
+    
+    padding: 10px 0px;
+}
+.navLink{
+   font-family: 'Roboto', sans-serif;
+   color: #060506;
+   font-size: 14px;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+.navLink:hover{
+   text-decoration: none; 
+   color: #cf9455;
+}
+.active1{
+   color: #cf9455;  
+}
+.logo{
+     color: #cf9455 !important;
+     font-weight: bold;
+     font-family: 'Roboto', sans-serif;
+     font-size: 26px;
+     letter-spacing: 2px;
+}
+.jumbotron-header1{
+    background-color: #000000;
+}
+.logo1{
+   font-size: 12px; 
+}
+.navLink1{
+   color: #000000 !important;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 10px !important;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.navLink1:hover{
+    color: #cf9455 !important; 
+}
+
+.jumbotron-footer{
+   background: #060506 !important;
+	border-radius: 0px !important;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align:left;
+	padding: 100px 0px 40px 0px !important;
+    margin: 0px;
+}
+.footer-heading{
+	color: #fff;
+	font-size:16px;
+	text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+.footer-links{
+	color: #eee;
+	font-size:14px;
+	text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 0px 8px 0px;
+    line-height: 32px !important;
+}
+.footer-links:hover{
+	color: #fff !important;
+    text-decoration: none;
+}
+.footer-social-icon{
+    color: #fff;
+    font-size: 15px;
+}
+
+ /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 580px;
+  }
+.carousel-indicators{
+    right: 900px;
+    bottom: 150px;
+}
+
+.carousel-indicators li{
+   width: 11px;
+   height: 11px;
+}
+.carousel-caption{
+    left: 10%;
+    text-align: left;
+    padding-bottom:40px;
+    margin-right: 150px;
+}
+.bigHeading{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;  
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.smallHeading{
+    font-family: 'Roboto', sans-serif;
+    color: #f2f2f2;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: left;
+}
+.marginLeft{
+    margin-left: 30px;
+}
+.viewLink{
+    font-family: 'Roboto', sans-serif;
+    color: #cf9455;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;  
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.viewLink:hover{
+   text-decoration: none;
+   color: #cf9455; 
+}
+.secondHead{
+   font-family: 'Roboto', sans-serif;
+    color: #333333;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;  
+    text-decoration: none;  
+}
+.smallHeadingGrey{
+  color: #999999;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.phnIcon{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    background-color:#e6e6e6;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;  
+    text-decoration: none;
+    padding: 15px 23px;
+    text-decoration: none;
+}
+.phnIcon:hover{
+    color: #000000; 
+    text-decoration: none;
+}
+.phnIcon1{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background-color:#cf9455;
+    font-size: 17px;
+    letter-spacing: 1px;  
+    text-decoration: none;
+    padding: 15px 23px;
+    text-decoration: none;
+    margin-left: -5px;
+}
+.phnIcon1:hover{
+    color: #000000; 
+    background-color: transparent;
+    border: 2px solid #cf9455;
+    text-decoration: none;
+}
+.phnIcon2{
+    margin-left: 0px;
+}
+.alignEnd{
+    text-align: end;
+}
+.topMargin{
+   margin-top: -37px; 
+}
+.phnIcon12:hover{
+   background-color: #ffffff; 
+}
+
+
+
+
+/* Extra small devices (phones, 300px and down)  start*/
+@media only screen and (max-width: 300px) {
+ 
+    
+}
+
+
+/* Extra small devices (phones, 320px and down)  start */
+@media only screen and (max-width: 320px) {
+  
+
+}
+
+
+/* Medium devices ( 767px and down) start */
+@media only screen and (max-width: 767px){ 
+    .carousel-inner img{
+        height: auto;
+    }
+    .jumbotron-header1{
+        display: none;
+    }
+    .bigHeading{
+        font-size: 17px !important; 
+    }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up)  start*/
+@media only screen and (min-width: 768px) {
+  .carousel-caption{
+     bottom: 64px;
+    }
+    .bigHeading{
+        font-size: 26px;
+    }
+    .smallHeading{
+       font-size: 14px;  
+    }   
+}
+    
+
+/* Medium devices ( 768px and down) start */
+@media only screen and (max-width: 768px){ 
+    .navLink{
+      padding: 0px 7px;     
+    } 
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up)  start*/
+@media only screen and (min-width: 992px) {
+   .navLink{
+      padding: 0px 7px;     
+    }
+   .carousel-caption{
+     bottom: 45px;
+    }
+    .bigHeading{
+        font-size: 38px;
+    }
+    .smallHeading{
+       font-size: 13px;  
+    }  
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up)  start*/
+@media only screen and (min-width: 1200px) {
+  .navLink{
+     padding: 0px 14px;     
+   }
+  .carousel-caption{
+     bottom: 200px;
+    }
+    .bigHeading{
+        font-size: 39px;
+    }
+    .smallHeading{
+       font-size: 14px !important;  
+    }      
+}
+
